@@ -4,7 +4,7 @@
 Llamada al sistema para la apertura y lectura del fichero “ejemplo” creado en el primer
 programa mostrado.
 
-
+> Unicamente hemos abierto un fichero con la funcion fopen y hemos realizado un *while* para recorrer cada linea del fichero y mostrarla por pantalla.
 
 ### *Ejercicio 2*
 
