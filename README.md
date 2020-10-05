@@ -22,7 +22,7 @@ Observa el siguiente código y escribe la jerarquía de procesos resultante. Aho
 compila y ejecuta el código para comprobarlo. Presta atención al orden de terminación
 de los procesos, ¿qué observas? ¿por qué?
 
-```
+```c
 #include<sys/types.h>
 #include<sys/wait.h>
 #include<unistd.h>
