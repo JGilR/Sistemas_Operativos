@@ -29,4 +29,4 @@ de los procesos, ¿qué observas? ¿por qué?
 
 Implementar un código que genere la estructura de procesos de la siguiente figura:
 
-https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/master/Practica1/Captura.png
+https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/master/Practica1/Captura.PNG
