@@ -22,6 +22,12 @@ compila y ejecuta el código para comprobarlo. Presta atención al orden de term
 de los procesos, ¿qué observas? ¿por qué?
 
 ```
+#include<sys/types.h>
+#include<sys/wait.h>
+#include<unistd.h>
+#include<stdio.h>
+#include<stdlib.h>
+
 
 ```
 
