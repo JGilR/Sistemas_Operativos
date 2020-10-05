@@ -4,6 +4,8 @@
 Llamada al sistema para la apertura y lectura del fichero “ejemplo” creado en el primer
 programa mostrado.
 
+
+
 ### *Ejercicio 2*
 
 Implementar una aplicación concurrente que calcule el cuadrado de los 20 primeros
