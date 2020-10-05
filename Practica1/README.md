@@ -4,6 +4,34 @@
 Llamada al sistema para la apertura y lectura del fichero “ejemplo” creado en el primer
 programa mostrado.
 
+```c
+#include<sys/types.h>
+#include<sys/stat.h>
+#include<unistd.h>
+#include<fcntl.h>
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+
+int main(void)
+{
+	FILE* fichero;
+	char lineas[100];
+	fichero = fopen("ejemplo", "r");
+	
+	if(fichero == NULL){
+		exit(1);
+	}else{
+		printf("El contenido es:\n\n");
+		while(fgets(lineas, 100, fichero)){
+			printf("%s", lineas);
+		}
+		fclose(fichero);
+	}
+	return 0;
+}
+```
+
 > Unicamente hemos abierto un fichero con la función *fopen()* y hemos realizado un *while* para recorrer cada linea con la función *fgets()* del fichero y mostrarla por pantalla.
 
 ### *Ejercicio 2*
