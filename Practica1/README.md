@@ -32,7 +32,8 @@ int main(void)
 }
 ```
 
-> Unicamente hemos abierto un fichero con la función *fopen()* y hemos realizado un *while* para recorrer cada linea con la función *fgets()* del fichero y mostrarla por pantalla.
+> Solución:
+>- Unicamente hemos abierto un fichero con la función *fopen()* y hemos realizado un *while* para recorrer cada linea con la función *fgets()* del fichero y mostrarla por pantalla.
 
 ### *Ejercicio 2*
 
