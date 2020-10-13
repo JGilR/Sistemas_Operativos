@@ -88,5 +88,5 @@ Implementar un código que genere la estructura de procesos de la siguiente figu
 
 ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/Practica1/Captura.PNG)
 
-![Image of capture1](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/Sistemas_Operativos/Practica1/Exit_ejercicio1.PNG)
+![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/Sistemas_Operativos/Practica1/Exit_ejercicio1.PNG)
 
