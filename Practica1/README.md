@@ -94,7 +94,9 @@ int main(void)
 > Solución:
 >- Hemos realizado las operaciones de calcular los cuadrados de los 20 primeros números, los pares para el primer hijo *pid1* y los impares para el segundo hijo *pid2*.
 >- Nos hemos dado cuenta de que el padre no puede obtener los array de cada uno de sus hijos, *result1[]* y *result2[]*.
+> ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/Practica1/Exit_ejercicio2_test.png)
 >- Sin embargo descubrimos como pasar variables de un hijo a un padre con *exit()* y el *WEXITSTATUS()*. Lo demostramos con el siguiente programa:
+
 
 ```c
 #include<sys/types.h>
@@ -134,6 +136,7 @@ int main(void)
 >- En este programa el hijo *pid* realiza la suma de los 20 primeros numeros naturales y pasamos este resultado *sum* al padre.
 >- En el proceso hijo realizamos la operación y sacamos el resultado con *exit(sum)*.
 >- Después en el padre esperamos con *wait(&status)* a que termine el proceso hijo y lo imprimimos por pantalla con un *printf* del *WEXITSTATUS(status)*.
+> ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/Practica1/Exit_ejercicio2.png)
 
 
 ### *Ejercicio 3*
