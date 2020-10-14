@@ -38,7 +38,6 @@ int main(void)
 > ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/Practica1/Exit_ejercicio1.png)
 
 
-
 ### *Ejercicio 2*
 
 Implementar una aplicación concurrente que calcule el cuadrado de los 20 primeros
@@ -49,6 +48,93 @@ Para ello se deben crear dos procesos Hijos:
 
 El proceso padre espera la terminación de los hijos, ‘obtiene’ el resultado de cada hijo
 y muestra los valores ordenados en pantalla.
+
+```c
+#include<sys/types.h>
+#include<stdlib.h>
+#include<stdio.h>
+#include<string.h>
+#include<sys/wait.h>
+
+int main(void)
+{
+    int result1[20], result2[20];
+
+    pid_t pid1, pid2;
+    int status1, status2;
+
+    if((pid1=fork()) == 0){
+        printf("Soy el primer hijo(%d, hijo de %d)\n", getpid(), getppid());
+        for(int i=1; i<=20; i++){
+            if((i % 2) == 0){
+                printf("%d - ", i*i);
+                result1[i] = i*i;
+            }
+        }
+        printf("\n");
+    }else{
+        if((pid2=fork()) == 0){
+            printf("Soy el segundo hijo(%d, hijo de %d)\n", getpid(), getppid());
+            for(int i=1; i<=20; i++){
+                if((i % 2) != 0){
+                    printf("%d - ", i*i);
+                    result2[i] = i*i;
+                }
+            }
+            printf("\n");
+        }else{
+            waitpid(pid1,&status1,0);
+            waitpid(pid2,&status2,0);
+            printf("Soy el padre(%d, hijo de %d)\n", getpid(), getppid());
+        }
+    }
+    return 0;
+}
+```
+> Solución:
+>- Hemos realizado las operaciones de calcular los cuadrados de los 20 primeros números, los pares para el primer hijo *pid1* y los impares para el segundo hijo *pid2*.
+>- Nos hemos dado cuenta de que el padre no puede obtener los array de cada uno de sus hijos, *result1[]* y *result2[]*.
+>- Sin embargo descubrimos como pasar variables de un hijo a un padre con *exit()* y el *WEXITSTATUS()*. Lo demostramos con el siguiente programa:
+
+```c
+#include<sys/types.h>
+#include<stdlib.h>
+#include<stdio.h>
+#include<string.h>
+#include<sys/wait.h>
+
+#define length(x) (sizeof(x) / sizeof(int))
+#define max 10
+
+int main(void)
+{
+	pid_t pid = fork();
+	int array[20] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
+	int status, sum = 0;
+
+	if(pid == 0){
+		for(int i=0; i<20; i++){
+			if((i%2) != 0){
+					printf("%d + %d\n", sum, array[i]);
+					sum = sum + array[i];
+			}
+		}
+		printf("Resultado (sum): %d\n", sum);
+		exit(sum);
+	}else{
+		wait(&status);
+		printf("Resultado de pasar variable del hijo al padre: %d \n", WEXITSTATUS(status));
+
+	}
+
+}
+
+```
+> Solución:
+>- En este programa el hijo *pid* realiza la suma de los 20 primeros numeros naturales y pasamos este resultado *sum* al padre.
+>- En el proceso hijo realizamos la operación y sacamos el resultado con *exit(sum)*.
+>- Después en el padre esperamos con *wait(&status)* a que termine el proceso hijo y lo imprimimos por pantalla con un *printf* del *WEXITSTATUS(status)*.
+
 
 ### *Ejercicio 3*
 
