@@ -185,6 +185,9 @@ int main(int argc, char *argv[]){
 >- Así es como cada uno de los tres hijos de PID 32991 crean un hijo, siendo los tres últimos hijos los de PID 32992, 32993, 32994.
 >- La jerarquía de procesos que planteamos sería de la siguiente forma:
 
+> ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/Practica1/JerarquiaProcess.PNG)
+
+
 
 
 ### *Ejercicio 4*
