@@ -194,4 +194,4 @@ int main(int argc, char *argv[]){
 
 Implementar un código que genere la estructura de procesos de la siguiente figura:
 
-![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/Practica1/Captura.PNG)
+![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/Practica1/JerarquiaProcessEjemplo.PNG)
