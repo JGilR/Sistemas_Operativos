@@ -179,6 +179,14 @@ int main(int argc, char *argv[]){
 
 > ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/Practica1/Exit_ejercicio3.png)
 
+> Solución:
+>- Este código crea tres hijos idénticos con el primer *for* y saca por pantalla su PID y el de su padre, en este caso el PID de los tres hijos es 32991 y el de su padre es el 4016.  
+>- El *if(pid==0) break;* sirve para que cuando ejecutas un proceso hijo se sale del *for* luego no podrá crear más hijos. ¿Qué pasa?, que a medida que avanza el *for* se crea un nuevo hijo dejando al hijo anterior pudiendo crear otro hijo. 
+>- Así es como cada uno de los tres hijos de PID 32991 crean un hijo, siendo los tres últimos hijos los de PID 32992, 32993, 32994.
+>- La jerarquía de procesos que planteamos sería de la siguiente forma:
+
+
+
 ### *Ejercicio 4*
 
 Implementar un código que genere la estructura de procesos de la siguiente figura:
