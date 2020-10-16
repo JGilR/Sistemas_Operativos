@@ -177,6 +177,8 @@ int main(int argc, char *argv[]){
 }
 ```
 
+> ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/Practica1/Exit_ejercicio3.png)
+
 ### *Ejercicio 4*
 
 Implementar un código que genere la estructura de procesos de la siguiente figura:
