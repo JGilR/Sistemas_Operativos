@@ -187,7 +187,7 @@ int main(int argc, char *argv[]){
 
 > ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/Practica1/JerarquiaProcess.PNG)
 
-
+>- Los procesos se van cerrando según se han creado por el *for*.
 
 
 ### *Ejercicio 4*
