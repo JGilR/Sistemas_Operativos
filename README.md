@@ -1,4 +1,23 @@
+<!-- ⚠️ This README has been generated from the file(s) "blueprint.md" ⚠️--><h1 align="center">SISTEMAS OPERATIVOS</h1>
+
+<p align="center">
+	<a href="http://andreasbm.github.io/web-skills" target="_blank">
+		<img src="https://raw.githubusercontent.com/andreasbm/web-skills/master/demo.gif" alt="Web Skills Demo" width="800" />
+	</a>
+</p>
+<br />
+<details>
+<summary>📖 Table of Contents</summary>
+<br />
+
+
+
+
+
+
 # Sistemas_Operativos
+
+
 ## Practica 1
 ### *Ejercicio 1*
 
