@@ -2,7 +2,7 @@
 
 <p align="center">
 	<a>
-		
+		<img src="https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/sistemasoperativos.jpg"  />
 	</a>
 </p>
 <br />
