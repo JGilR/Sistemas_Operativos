@@ -14,11 +14,10 @@
 
 ## ➤ Table of Contents
 
-* [➤ PRACTICA 1](#-practica 1)
-* [➤ PRACTICA 2](#-practica 2)
+* [➤ PRACTICA 1](#-practica1)
+* [➤ PRACTICA 2](#-practica2)
 
-
-# Sistemas_Operativos
+</details>
 
 
 ## Practica 1
@@ -80,7 +79,7 @@ Implementar un código que genere la estructura de procesos de la siguiente figu
 ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/Practica1/JerarquiaProcessEjemplo.PNG)
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-practica1)
 
 
 ## Practica 2
@@ -141,5 +140,5 @@ Generar un programa en C que muestre el funcionamiento de mutex a través de
 la creación de un par de threads, donde cada uno escriba su propio mensaje por
 la salida estándar de forma sincronizada secuenciando las tareas. 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-practica2)
 
