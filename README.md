@@ -2,7 +2,7 @@
 
 <p align="center">
 	<a href="http://andreasbm.github.io/web-skills" target="_blank">
-		<img src="https://raw.githubusercontent.com/andreasbm/web-skills/master/demo.gif" alt="Web Skills Demo" width="800" />
+		<img src="https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/sistemas operativos 1.jpg"  />
 	</a>
 </p>
 <br />
