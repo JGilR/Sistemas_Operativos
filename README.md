@@ -14,8 +14,8 @@
 
 ## ➤ Table of Contents
 
-* [➤ PRACTICA 1](#-practica1)
-* [➤ PRACTICA 2](#-practica2)
+* [➤ Practica 1](#-practica1)
+* [➤ Practica 2](#-practica2)
 
 </details>
 
