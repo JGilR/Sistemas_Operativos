@@ -206,6 +206,16 @@ int main ( int argc , char * argv []) {
 }
 ```
 
+`Este programa lo hemos extraído de https://www.um.es/earlyadopters/actividades/a3/PCD_Activity3_Session1.pdf`
+
+> Solución:
+>- Primero hemos extraído un programa simple que escribe "Hola Mundo" con dos hilos distintos, el primero escribe *Hola* y el segundo *Mundo*.
+>- Le hemos puesto un delay de 1 segundo para cada letra, para ver como al ejecutarse los dos hilos a la vez, se intercalan las letras.
+
+
+> ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/Practica2/Exit_ejercicio3_holamundo.png)
+
+>- Ahora lo vamos a modificar utilizando el *mutex* para que escriba primero *Hola* y luego *Mundo*.
 
 ```c
 #include <unistd.h>
@@ -256,7 +266,8 @@ int  main(int  argc , char *argv []) {
 ```
 
 > Solución:
->- 
+>- Primero creamos el mutex *pthread_mutex_t mutex*. Este se encargará de bloquear la función *mundo* y la desbloquearemos cuando se ejecute la función *hola*.
+>- Para ello utilizamos *pthread_mutex_lock* y *pthread_mutex_unlock*. Así si nos fijamos en el main primero creamos el hilo para la función mundo y esta se bloquea hasta que se ejecute el siguiente hilo con la función hola.
 
 
 > ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/Practica2/Exit_ejercicio3.png)
