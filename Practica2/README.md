@@ -42,6 +42,7 @@ int factorial(int n){
 
 
 int  main(int  argc , char *argv []) {
+    thmain = pthread_self();
     pthread_create(&h1, NULL, thread, (void *)num1);
     pthread_create(&h2, NULL, thread, (void *)num2);
     pthread_join(h1, NULL);
