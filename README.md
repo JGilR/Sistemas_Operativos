@@ -16,6 +16,7 @@
 
 * [➤ Practica 1](#-practica1)
 * [➤ Practica 2](#-practica2)
+* [➤ Practica 3](#-practica3)
 
 </details>
 
@@ -143,4 +144,24 @@ la creación de un par de threads, donde cada uno escriba su propio mensaje por
 la salida estándar de forma sincronizada secuenciando las tareas. 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-practica2)
+
+
+## Practica 3
+### *Ejercicio 1*
+
+Implementar un programa productor-consumidor mediante tuberías/pipes
+donde el proceso hijo genera datos y el proceso padre los consume.
+
+### *Ejercicio 2*
+
+El problema del productor-consumidor con buffer limitado (circular):
+Planteamiento: 
+
+* El proceso productor produce información y la almacena en un buffer.
+* El proceso consumidor accede al buffer y consume la información.
+* El productor y el consumidor comparten variables.
+* El productor no puede acceder al buffer si está lleno.
+* El consumidor no puede acceder al buffer si está vacío. 
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-practica3)
 
