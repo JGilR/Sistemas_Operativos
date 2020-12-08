@@ -15,6 +15,7 @@ terminen los otros dos hilos.
 
 pthread_t  h1;
 pthread_t  h2;
+pthread_t  thmain;
 
 int num1 = 3, num2 = 5;
 
