@@ -163,7 +163,7 @@ Planteamiento:
 * El productor no puede acceder al buffer si está lleno.
 * El consumidor no puede acceder al buffer si está vacío. 
 
-![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/ejemplo.png)
+![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/ejemplo.PNG)
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-practica3)
 
