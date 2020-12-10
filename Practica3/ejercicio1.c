@@ -37,7 +37,7 @@ int main (int argc, char **argv){
 
             close(p[1]);
 
-            wait(NULL); // Eperamos a que finalize el hijo
+            wait(NULL); // Eperamos a que finalice el hijo
             printf("El papi lee en el PIPE ... \n");
             usleep(1000000);
             read(p[0], buffer, SIZE);
