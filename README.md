@@ -17,6 +17,7 @@
 * [➤ Practica 1](#-practica1)
 * [➤ Practica 2](#-practica2)
 * [➤ Practica 3](#-practica3)
+* [➤ Practica 4](#-practica4)
 
 </details>
 
@@ -166,4 +167,12 @@ Planteamiento:
 ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/ejemplo.PNG)
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-practica3)
+
+
+## Practica 3
+### *Ejercicio 1*
+
+Implementar el problema de productor consumidor utilizando variables condicionales. 
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-practica4)
 
