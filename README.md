@@ -169,7 +169,7 @@ Planteamiento:
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-practica3)
 
 
-## Practica 3
+## Practica 4
 ### *Ejercicio 1*
 
 Implementar el problema de productor consumidor utilizando variables condicionales. 
