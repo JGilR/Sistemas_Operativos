@@ -2,7 +2,7 @@
 
 <p align="center">
 	<a>
-		<img src="https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/sistemasoperativos.jpg"  />
+		<img src="https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/master/sistemasoperativos.jpg"  />
 	</a>
 </p>
 <br />
@@ -80,7 +80,7 @@ int main(int argc, char *argv[]){
 
 Implementar un código que genere la estructura de procesos de la siguiente figura:
 
-![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/Practica1/JerarquiaProcessEjemplo.PNG)
+![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/master/Practica1/JerarquiaProcessEjemplo.PNG)
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-practica1)
@@ -164,7 +164,7 @@ Planteamiento:
 * El productor no puede acceder al buffer si está lleno.
 * El consumidor no puede acceder al buffer si está vacío. 
 
-![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/ejemplo.PNG)
+![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/master/ejemplo.PNG)
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-practica3)
 
