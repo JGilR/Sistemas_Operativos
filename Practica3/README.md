@@ -63,7 +63,7 @@ int main (int argc, char **argv){
 >- En el caso de padre es al revés, cerramos el descriptor de escritura, ya que vamos a leer. Leemos el mensaje con *read()* y lo imprimimos por pantallas, finalmente cerramos el descriptor de lectura.
 
 
-> ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/Practica3/Exit_ejercicio1.png)
+> ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/master/Practica3/Exit_ejercicio1.png)
 
 ### *Ejercicio 2*
 
@@ -175,9 +175,9 @@ int main(void){
 >- En el caso PRODUCTOR: antes de realizar la comprobación de si está vacío o no ponemos el semáforo a "rojo" (0) con *sem_wait()*. Solo volverá a "verde" (1) cuando se haya realizado la función *produce_info()*.
 >- En el caso CONSUMIDOR: antes de realizar la comprobación de si está lleno o no ponemos el semáforo a "rojo" (0) con *sem_wait()*. Solo volverá a "verde" (1) cuando se haya realizado la función *consume_info()*.
 
-> ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/Practica3/Exit_ejercicio2.png)
+> ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/master/Practica3/Exit_ejercicio2.png)
 
 >- Este ejercicio se realiza con semáforos ya que si no, los procesos se entrelazarian, es decir, las funciones se ejecutarían al mismo tiempo dejandonos un resultado como este:
 
-> ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/Practica3/Exit_ejercicio2_fail.png)
+> ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/master/Practica3/Exit_ejercicio2_fail.png)
 
