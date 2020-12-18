@@ -35,7 +35,7 @@ int main(void)
 > Solución:
 >- Unicamente hemos abierto un fichero con la función *fopen()* y hemos realizado un *while* para recorrer cada linea con la función *fgets()* del fichero y mostrarla por pantalla.
 
-> ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/Practica1/Exit_ejercicio1.png)
+> 
 
 
 ### *Ejercicio 2*
