@@ -57,7 +57,7 @@ int  main(int  argc , char *argv []) {
 >- En el main creamos los dos hilos correspondientes con *pthread_create*, los parámetros que le pasamos son el propio hilo, los atributos (NULL) que obtiene los atributos normales, la función que queremos que realize y por último le pasamos el número como argumento.
 
 
-> ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/Practica2/Exit_ejercicio1.png)
+> ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/master/Practica2/Exit_ejercicio1.png)
 
 
 ### *Ejercicio 2*
@@ -213,7 +213,7 @@ int main ( int argc , char * argv []) {
 >- Le hemos puesto un delay de 1 segundo para cada letra, para ver como al ejecutarse los dos hilos a la vez, se intercalan las letras.
 
 
-> ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/Practica2/Exit_ejercicio3_holamundo.png)
+> ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/master/Practica2/Exit_ejercicio3_holamundo.png)
 
 >- Ahora lo vamos a modificar utilizando el *mutex* para que escriba primero *Hola* y luego *Mundo*.
 
@@ -270,6 +270,6 @@ int  main(int  argc , char *argv []) {
 >- Para ello utilizamos *pthread_mutex_lock* y *pthread_mutex_unlock*. Así si nos fijamos en el main primero creamos el hilo para la función mundo y esta se bloquea hasta que se ejecute el siguiente hilo con la función hola.
 
 
-> ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/Practica2/Exit_ejercicio3.png)
+> ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/master/Practica2/Exit_ejercicio3.png)
 
 
