@@ -95,7 +95,7 @@ int main(void)
 >- Hemos realizado las operaciones de calcular los cuadrados de los 20 primeros números, los pares para el primer hijo *pid1* y los impares para el segundo hijo *pid2*.
 >- Nos hemos dado cuenta de que el padre no puede obtener los array de cada uno de sus hijos, *result1[]* y *result2[]*.
 
-> ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/Practica1/Exit_ejercicio2_test.png)
+> ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/master/Practica1/Exit_ejercicio2_test.png)
 
 >- Sin embargo descubrimos como pasar variables de un hijo a un padre con *exit()* y el *WEXITSTATUS()*. Lo demostramos con el siguiente programa:
 
@@ -139,7 +139,7 @@ int main(void)
 >- En el proceso hijo realizamos la operación y sacamos el resultado con *exit(sum)*.
 >- Después en el padre esperamos con *wait(&status)* a que termine el proceso hijo y lo imprimimos por pantalla con un *printf* del *WEXITSTATUS(status)*.
 
-> ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/Practica1/Exit_ejercicio2.png)
+> ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/master/Practica1/Exit_ejercicio2.png)
 
 
 ### *Ejercicio 3*
@@ -177,7 +177,7 @@ int main(int argc, char *argv[]){
 }
 ```
 
-> ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/Practica1/Exit_ejercicio3.png)
+> ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/master/Practica1/Exit_ejercicio3.png)
 
 > Solución:
 >- Este código crea tres hijos idénticos con el primer *for* y saca por pantalla su PID y el de su padre, en este caso el PID de los tres hijos es 32991 y el de su padre es el 4016.  
@@ -185,7 +185,7 @@ int main(int argc, char *argv[]){
 >- Así es como cada uno de los tres hijos de PID 32991 crean un hijo, siendo los tres últimos hijos los de PID 32992, 32993, 32994.
 >- La jerarquía de procesos que planteamos sería de la siguiente forma:
 
-> ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/Practica1/JerarquiaProcess.PNG)
+> ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/master/Practica1/JerarquiaProcess.PNG)
 
 >- Los procesos se van cerrando según se han creado por el *for*.
 
@@ -194,4 +194,4 @@ int main(int argc, char *argv[]){
 
 Implementar un código que genere la estructura de procesos de la siguiente figura:
 
-![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/Practica1/JerarquiaProcessEjemplo.PNG)
+![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/master/Practica1/JerarquiaProcessEjemplo.PNG)
