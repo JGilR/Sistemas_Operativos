@@ -83,5 +83,5 @@ int main(int argc, char *argv[]){
 
 
 
-> ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/Practica4/Exit_ejercicio.png)
+> ![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/master/Practica4/Exit_ejercicio.png)
 
