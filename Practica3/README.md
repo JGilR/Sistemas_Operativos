@@ -76,7 +76,7 @@ Planteamiento:
 * El productor no puede acceder al buffer si está lleno.
 * El consumidor no puede acceder al buffer si está vacío. 
 
-![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/main/ejemplo.PNG)
+![Image of capture](https://raw.githubusercontent.com/JGilR/Sistemas_Operativos/master/ejemplo.PNG)
 
 ```c
 #include <fcntl.h>
